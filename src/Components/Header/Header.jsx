@@ -1,6 +1,13 @@
 import React from 'react'
 import './Header.css'
 
+  /* se iporta con consola (react-router-dom)para que se puedan usar los links
+  .los a se llaman (links) en react y los hearf se llaman (to)
+  */ 
+
+import { Link } from "react-router-dom";
+
+
 export default function Header() {
   return (
     <div className='envoltorio'>
@@ -8,12 +15,12 @@ export default function Header() {
           <div className="header-links">
             <nav className="navigation">
               <ul className="navigation__list navigation__list--inline">
-                <li className="navigation__item"><a href="#" className="navigation__link navigation__link--is-active">Home</a></li>
-                <li className="navigation__item"><a href="#" className="navigation__link">PRoA La Falda</a></li>
-                <li className="navigation__item"><a href="#" className="navigation__link">Novedades</a></li>
-                <li className="navigation__item"><a href="#" className="navigation__link">ProaTeca</a></li>
-                <li className="navigation__item"><a href="./loguin/form.html" className="navigation__link">Consultas</a></li>
-              </ul>
+                <li className="navigation__item"><Link className="navigation__link navigation__link--is-active">Home</Link></li>
+                <li className="navigation__item"><Link className="navigation__link">PRoA La Falda</Link></li>
+                <li className="navigation__item"><Link className="navigation__link">Novedades</Link></li>
+                <li className="navigation__item"><Link className="navigation__link">ProaTeca</Link></li>
+                <li className="navigation__item"><Link to={"login"} className="navigation__link">Consultas</Link></li>
+              </ul> 
             </nav>
           </div>
           <div>
