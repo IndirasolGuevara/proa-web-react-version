@@ -46,17 +46,17 @@ export default function Footer() {
           </p>  
           <div class="footer-icons"> 
             <a href="https://www.facebook.com/proalafalda">             
-              <img src="./Footer Azul/imagenes/facebook logo.png"
+              <img src="./facebook logo.png"
               width="30"
               height="30"/>              
               <i class="fa fa-facebook"></i></a>    
             <a href="https://www.instagram.com/proa_lafalda">
-              <img src="./Footer Azul/imagenes/ig_logo1.png"
+              <img src="./ig_logo1.png"
               width="30"
               height="30"/>
               <i class="fa fa-instagram"></i></a>
             <a href="https://proalafalda.blogspot.com/">
-              <img src="./Footer Azul/imagenes/blogspot logo.png"
+              <img src="./blogspot logo.png"
               width="30"
               height="30"/>
               <i class="fa fa-blogspot"></i></a>
