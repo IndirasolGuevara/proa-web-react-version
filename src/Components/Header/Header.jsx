@@ -22,11 +22,11 @@ export default function Header() {
                 <li className="navigation__item"><Link to={"login"} className="navigation__link">Consultas</Link></li>
               </ul> 
             </nav>
-          </div>
+          </div> 
           <div>
             <div className="svg-container">
               <svg viewBox="0 0 800 400" className="svg">
-                <path id="curve" fill="#50c6d8" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
+                <path id="curve" fill="#95c7e9" d="M 800 300 Q 400 350 0 300 L 0 0 L 800 0 L 800 300 Z">
                 </path>
               </svg>
             </div>
