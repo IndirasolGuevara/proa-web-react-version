@@ -16,7 +16,7 @@ export default function Header() {
             <nav className="navigation">
               <ul className="navigation__list navigation__list--inline">
                 <li className="navigation__item"><Link className="navigation__link navigation__link--is-active">Home</Link></li>
-                <li className="navigation__item"><Link className="navigation__link">PRoA La Falda</Link></li>
+                <li className="navigation__item"><Link className="navigation__link">Historia</Link></li>
                 <li className="navigation__item"><Link className="navigation__link">Novedades</Link></li>
                 <li className="navigation__item"><Link className="navigation__link">ProaTeca</Link></li>
                 <li className="navigation__item"><Link to={"login"} className="navigation__link">Consultas</Link></li>
@@ -32,7 +32,7 @@ export default function Header() {
             </div>
             <header>
               <h1 className="title">ESCUELA PROA LA FALDA</h1>
-              <h3 className="sub-titulo">Here you are, scroll down.</h3>
+              <h3 className="sub-titulo">Bienvenidos.</h3>
             </header>
           </div>
         </header>
