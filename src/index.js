@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 /*se importa login */
 import Login from './Components/Login/Login';
+import Novedades from './Components/Novedades/Novedades';
 
 const router = createBrowserRouter([
   /*para crear otras rutas. ej:la primera que aparece es app
@@ -20,6 +21,11 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login/>,
   },
+  {
+    path: "/Novedades",
+    element: <Novedades/>,
+  },
+
   {
     path: "/",
     element: <App/>
