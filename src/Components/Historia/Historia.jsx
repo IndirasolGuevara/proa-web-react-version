@@ -1,10 +1,12 @@
 import React from 'react'
-import './Novedades.css'
+import './Historia.css'
+import { Link } from "react-router-dom";
+
 
 export default function Historia() {
   return (
     <div>
-        <h1>HISTORIA</h1>
+        <h1><Link to={"App"} >HISTORIA</Link></h1>
     </div>
 
     )
