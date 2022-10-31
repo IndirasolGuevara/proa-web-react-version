@@ -16,7 +16,7 @@ export default function Header() {
             <nav className="navigation">
               <ul className="navigation__list navigation__list--inline">
                 <li className="navigation__item"><Link className="navigation__link navigation__link--is-active">Home</Link></li>
-                <li className="navigation__item"><Link to={"Novedades"} className="navigation__link">Historia</Link></li>
+                <li className="navigation__item"><Link to={"Historia"} className="navigation__link">Historia</Link></li>
                 <li className="navigation__item"><Link className="navigation__link">Novedades</Link></li>
                 <li className="navigation__item"><Link className="navigation__link">ProaTeca</Link></li>
                 <li className="navigation__item"><Link to={"login"} className="navigation__link">Consultas</Link></li>
