@@ -7,6 +7,7 @@ export default function Historia() {
   return (
     <div>
         <h1><Link to={"App"} >HISTORIA</Link></h1>
+         
     </div>
 
     )
